@@ -73,8 +73,10 @@ blockquote::selection {
 }
 
 img {
-  box-shadow: 10px 10px 61px -7px rgb(0 0 0 / 28%) !important;
-  border-radius: 15px !important;
+    -webkit-box-shadow: -1px 17px 55px -29px rgba(161, 161, 167, 0.64);
+    -moz-box-shadow: -1px 17px 55px -29px rgba(161, 161, 167, 0.64);
+    box-shadow: -1px 17px 55px -29px rgba(161, 161, 167, 0.64);
+    border-radius: 15px !important;
 }
 
 .time-line-container>div:last-child .education__time>.education__line {
