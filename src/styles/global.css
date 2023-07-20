@@ -1,3 +1,82 @@
+ :root {
+   --pink-underline: #ee5f85;
+   --hot-pink-hover: #ed386a;
+   --link-hover: #06d7d9;
+   --purple-accent: #aa00a5;
+   --blockquote-dark: #424242;
+   --blockquote-background-dark: #f3f5f6;
+   --blockquote-border-left-dark: #ff1a75;
+   --test-body-bg: #f3f5f6;
+   --background: #f8f8f8;
+   --light-gray-color: #f1f1f1;
+   --mid-gray-color: #d9d9d9;
+   --dark-gray-color: #1a1a1a;
+   --black-color: #000;
+   --dark-mode-bg-color: #282c35;
+   --dark-mode-darker-bg-color: #21252c;
+   --dark-mode-primary-text-color: #ccc;
+   --dark-mode-secondary-text-color: #999;
+   --dark-mode-border-color: #495061;
+   --font: Freight Sans Pro, sans-serif;
+   --list-font: Lato, sans-serif;
+ }
+
+ body {
+  font-family: Freight Sans Pro, sans-serif !important;
+ }
+
+p::selection {
+  background: #ff1a75;
+  color: white;
+}
+
+h1::selection {
+  background: #06d7d9;
+}
+
+h2::selection {
+  background: #ed54e1;
+}
+
+h3::selection {
+  background: #72f1b8;
+  color: white;
+}
+
+h4::selection {
+  background: #ff0067;
+  color: white;
+}
+
+code::selection {
+  background: #ed54e1;
+}
+
+ul::selection {
+  background: #ff1a75;
+  color: white;
+}
+
+ol::selection {
+  background: #72f1b8;
+  color: white;
+}
+
+li::selection {
+  background: #ff1a75;
+  color: white;
+}
+
+blockquote::selection {
+  background: #06d7d9;
+  color: white;
+}
+
+img {
+  box-shadow: 10px 10px 61px -7px rgb(0 0 0 / 28%) !important;
+  border-radius: 15px !important;
+}
+
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
