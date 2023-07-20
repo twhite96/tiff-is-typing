@@ -1,7 +1,7 @@
 ---
 title: "The Social Network"
 description: "One of the best movies of the 2010s."
-date: "Dec 26 2022"
+pubDate: "Dec 26 2022"
 heroImage: "/images/fb-headquarters.webp"
 ---
 
